@@ -1,0 +1,88 @@
+/* COLORS */
+.bg-prime {background: #323039;}
+.btn-secondary {background:transparent; border-color: #CCBCBC;}
+.nav-link { font-size: 0.8rem;  letter-spacing: 0.10rem; font-weight: 400}
+.bt-login {background: #323039; border: none;}
+.bt-login:hover {background-color: #18c3f8;}
+.footer-brand {color: #323039;}
+.footer-brand:hover {color: #323039;}
+.footer {background: #f1f1f1}
+h5 {color: #323039 !important;}
+a:hover {text-decoration: none; }
+.jumbotron {min-height: 500px; border-radius: 0px;
+
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.jumbotron h1,  .jumbotron p  {color: #fff !important}
+.bt-jumbotron{background: transparent; border-color: #CCBCBC; color: #fff;}
+
+
+
+
+.block {
+    height: 350px;
+    background: #f1f1f1;
+    margin-bottom: 30px;
+  }
+   
+  .label {
+    font-size: .85rem;
+    font-weight: bold;
+  }
+
+
+/* CART icon */
+.badge {
+    background-color: #18c3f8;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 7px;
+    line-height: 1;
+    padding: 5px 7px;
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap;
+    margin-right: 10px
+}
+.fa-shopping-cart {padding: 0px !important; font-size: 2rem; color: #CCBCBC}
+
+
+/* Slider */
+.carousel-item {
+    height: 70vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.carousel-caption {
+
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+  }
+
+/* Modal */
+.modal-content  {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important; 
+}
+
+
+/* Mitt konto */
+
+.mittkonto {background: #f1f1f1 }

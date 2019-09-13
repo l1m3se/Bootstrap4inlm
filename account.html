@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/63b0737434.js"></script>
+    <title>Web Shop</title>
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-prime static-top">
+    <div class="container">
+    <a class="navbar-brand" href="index.html">Fashion Shop</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Nyheter
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kläder</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Denim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accessoarer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rea</a>
+          </li>
+          <li class="nav-item">
+                <a href="#"><i class="fa fa-shopping-cart"></i><span class="badge">3</span></a>
+          </li>
+    
+        </ul>
+        <a  class="btn btn-secondary" href="account.html">Mitt konto</a>
+      </div>
+    </div>
+</nav>
+<!-- Navigation End -->
+
+
+
+
+<!-- Header -->
+
+<div class="container-fluid mittkonto">
+    <div class="container py-5">
+    <h1 class="display-4 ">Mitt konto</h1>
+    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos optio quidem eius tempore nostrum, dicta recusandae fuga, illum eligendi magni repellendus exercitationem et! Laborum, consequuntur vel adipisci eos possimus ut.</p>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="container py-5">
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#info" role="tab" aria-controls="profile" aria-selected="true">Konto inställningar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#orders" role="tab" aria-controls="orders" aria-selected="false">Mina beställningar</a>
+            </li>
+
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="home-tab">
+
+                <form class="needs-validation py-5" novalidate>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">E-post</label>
+                        <input type="text" class="form-control" id="inputEmail4"  value="user@email.com" disabled>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Lösenord</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="Lösenord" disabled>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                    <div class="form-group col-md-6 ">
+                      <label for="inputAddress">Adress</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Adress" value="Vällingbyvägen 32" disabled>
+                    </div>
+                    
+                    
+                    <div class="form-group col-md-6">
+                      <label for="inputAddress2">Adress 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Adress 2"  disabled>
+                    </div>
+                </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">Stad</label>
+                        <input type="text" class="form-control" id="inputCity" value="Stockholm" disabled>
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputState">Ort</label>
+                        <select id="inputState" class="form-control" disabled>
+                            <option value="volvo">Vällingby</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputZip">Postadress</label>
+                        <input type="text" class="form-control" id="inputZip" value="162 88" disabled>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary bt-login">Redigera</button>
+                  </form>
+
+            </div>
+
+
+
+            <div class="tab-pane fade" id="orders" role="tabpanel" aria-labelledby="profile-tab">
+
+                <table class="table my-5">
+                    <thead class="thead">
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Produkt</th>
+                        <th scope="col">Datum</th>
+                        <th scope="col">Antal</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Lorem Ipsum</td>
+                        <td>12:42 8/7/2019</td>
+                        <td>1</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">2</th>
+                          <td>Lorem Ipsum</td>
+                          <td>12:42 8/5/2019</td>
+                          <td>1</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">3</th>
+                          <td>Lorem Ipsum</td>
+                          <td>12:42 8/5/2019</td>
+                          <td>1</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  
+
+            </div>
+            
+          </div>
+
+       
+
+    </div>
+</div>
+
+
+
+<!-- Header End -->
+
+
+<!-- Main Content -->
+
+
+
+<!-- Main Content end -->
+
+
+
+<!-- Footer -->
+
+<footer class="container py-5">
+        <div class="row">
+          <div class="col-sm">
+            <h5>Hjälp</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Vanliga frågor</a></li>
+              <li><a class="text-muted" href="#">Beställa</a></li>
+              <li><a class="text-muted" href="#">Betalning</a></li>
+              <li><a class="text-muted" href="#">Fakturabetalning</a></li>
+              <li><a class="text-muted" href="#">Leveranstid</a></li>
+              <li><a class="text-muted" href="#">Returnera en vara</a></li>
+              <li><a class="text-muted" href="#">Leverans- och returkostnader</a></li>
+              <li><a class="text-muted" href="#">Ändra användaruppgifter</a></li>
+              <li><a class="text-muted" href="#">Prenumerera på vårt nyhetsbrev</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm">
+            <h5>Presentkort</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Köp presentkort</a></li>
+              <li><a class="text-muted" href="#">Frågor om presentkort</a></li>
+              <li><a class="text-muted" href="#">Presentkort för företag</a></li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <h5>Om Fashion Shop</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Vi söker medarbetare!</li>
+              <li><a class="text-muted" href="#">Marknadsföringsmöjligheter</a></li>
+              <li><a class="text-muted" href="#">Fashion Shop Marketing Services</a></li>
+              <li><a class="text-muted" href="#">Press</a></li>
+              <li><a class="text-muted" href="#">Användarvillkor</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+<!-- Footer END -->
+
+<!-- JS -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+        // Disable form submissions if there are invalid fields
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Get the forms we want to add validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+        </script>
+<!-- JS End -->
+</body>
+</html>
